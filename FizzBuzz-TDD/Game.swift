@@ -20,7 +20,7 @@ class Game {
     }
     
     // challenge 3
-    func play(move: String) -> Bool {
+    func play(move: Move) -> (right: Bool, score: Int) {
         /*score += 1 */
         // challenge 5
         /*return true */
@@ -28,9 +28,9 @@ class Game {
         
         if result == move {
             score += 1
-            return true
+            return (true, score)
         }else {
-            return false
+            return (false, score)
         }
     }
 }

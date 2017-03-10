@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct FizzBuzzBrain {
+struct FizzBuzzText {
     static let Fizz = "Fizz"
     static let Buzz = "Buzz"
     static let FizzBuzz = "FizzBuzz"
